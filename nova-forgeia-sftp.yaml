@@ -1,0 +1,11 @@
+apiVersion: mcserverhosting.net/v2
+kind: SFTPServer
+metadata:
+  name: nova-forgeia-sftp
+spec:
+  online: true
+  users:
+  - groupID: 999
+    publicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZGCeS6P+93P7JVCHl/qJqTPQgAojQv7jSqBxP6IT6byE0SzM4fygILilqQqsnKNAeEtWT7Ov7qumamcTnlufe2t9ybhiGhkppM38AO6+C+3vVEjsETK2dNKr0yC9RksiNIllOD6law75rDBfNfVslrC2HIMf/eTuCSvn2n+Ran2jOC2N38/9sIBTOtbEJ2YyvE5YVOjt6OICd68IzqZemx/b2J6ZGj0Ldqs8X0jOPiPDGT1xBoofkRWQWJMCzHSadki1FvNhbXYI8FeEy/u6slW+UVp+dTjSkXlPtIkgPYgYoPR5VYY1HJQL1CLZQS1/1v0HeW4CGTq8KyZL0bfyT kbarret8@kbarret8-mbp
+    userID: 1000
+    username: kingdon
