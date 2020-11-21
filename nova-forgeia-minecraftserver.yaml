@@ -64,7 +64,7 @@ spec:
     version: 1.12.2
   network:
     domainName: kingdon.play.minecraftserverhosting.sh
-  online: false
+  online: true
   overrideOnStartup: false
   pages: true
   runtime: 
