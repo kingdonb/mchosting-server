@@ -59,8 +59,8 @@ spec:
     eula: true
     memory:
       hugePages: 250M
-      initial: 1G
-      max: 3500M
+      initial: 4G
+      max: 4G
     version: 1.12.2
   network:
     domainName: prunehogton.play.minecraftserverhosting.sh
