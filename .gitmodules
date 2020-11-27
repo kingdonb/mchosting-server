@@ -1,0 +1,3 @@
+[submodule "mcserverhosting-net/scoop"]
+	path = mcserverhosting-net/scoop
+	url = git@github.com:mcserverhosting-net/scoop.git
